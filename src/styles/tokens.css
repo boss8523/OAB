@@ -1,0 +1,141 @@
+:root {
+  /* Brand & semantic colors — light */
+  --color-primary: #1a6b3c;
+  --color-primary-hover: #155832;
+  --color-primary-foreground: #f4faf6;
+  --color-primary-muted: #e4f2ea;
+  --color-forest: #0a2e1a;
+  --color-secondary: #2f8f55;
+  --color-secondary-foreground: #f4faf6;
+  --color-earth: #7a5c3a;
+  --color-earth-foreground: #fbf7f1;
+  --color-warm: #ece7de;
+  --color-background: #f5f7f3;
+  --color-surface: #ffffff;
+  --color-surface-muted: #e9eee8;
+  --color-foreground: #14201a;
+  --color-foreground-secondary: #5a6b60;
+  --color-border: #d4ddd6;
+  --color-border-strong: #aebbb3;
+  --color-success: #1f7a45;
+  --color-success-muted: #def1e6;
+  --color-warning: #b7791f;
+  --color-warning-muted: #f8ecd7;
+  --color-danger: #b42318;
+  --color-danger-muted: #fce8e6;
+  --color-info: #1769aa;
+  --color-info-muted: #e3f0fa;
+  --color-ring: #2f8f55;
+  --color-overlay: rgb(10 46 26 / 0.55);
+
+  /* Typography */
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-ethiopic: "Noto Sans Ethiopic", "Figtree", ui-sans-serif, sans-serif;
+  --font-data: "Sora", ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: clamp(2.75rem, 5vw + 1rem, 4.5rem);
+  --text-hero: clamp(2.25rem, 3.5vw + 1rem, 3.5rem);
+  --text-h1: clamp(1.875rem, 2vw + 1rem, 2.5rem);
+  --text-h2: clamp(1.5rem, 1.2vw + 1rem, 2rem);
+  --text-h3: clamp(1.25rem, 0.6vw + 1rem, 1.5rem);
+  --text-h4: 1.125rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-label: 0.75rem;
+  --text-kpi: clamp(1.75rem, 1.5vw + 1rem, 2.5rem);
+
+  --leading-display: 1.05;
+  --leading-hero: 1.1;
+  --leading-h1: 1.15;
+  --leading-h2: 1.2;
+  --leading-h3: 1.3;
+  --leading-h4: 1.35;
+  --leading-body-lg: 1.65;
+  --leading-body: 1.6;
+  --leading-small: 1.5;
+  --leading-label: 1.4;
+  --leading-kpi: 1.1;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --page-padding: clamp(1rem, 3vw, 2rem);
+  --section-space: clamp(3.5rem, 8vw, 6.5rem);
+  --container-max: 72rem;
+  --container-wide: 80rem;
+  --grid-gap: clamp(1rem, 2vw, 1.5rem);
+
+  /* Radii — restrained, not pill-heavy */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* Elevation */
+  --shadow-soft: 0 1px 2px rgb(20 32 26 / 0.04), 0 8px 24px rgb(20 32 26 / 0.06);
+  --shadow-elevated: 0 2px 4px rgb(20 32 26 / 0.05), 0 16px 40px rgb(20 32 26 / 0.1);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* Layout chrome */
+  --header-height: 4.25rem;
+  --portal-sidebar-width: 16.5rem;
+  --portal-sidebar-collapsed: 4.5rem;
+}
+
+.dark {
+  --color-primary: #3daf6a;
+  --color-primary-hover: #4ec07a;
+  --color-primary-foreground: #06150d;
+  --color-primary-muted: #143525;
+  --color-forest: #081910;
+  --color-secondary: #56b87a;
+  --color-secondary-foreground: #06150d;
+  --color-earth: #c4a574;
+  --color-earth-foreground: #1a140c;
+  --color-warm: #2a241c;
+  --color-background: #0b1610;
+  --color-surface: #132018;
+  --color-surface-muted: #1a2a20;
+  --color-foreground: #e8f0ea;
+  --color-foreground-secondary: #9aafa1;
+  --color-border: #2a3d31;
+  --color-border-strong: #3d5546;
+  --color-success: #3daf6a;
+  --color-success-muted: #143525;
+  --color-warning: #e0a84a;
+  --color-warning-muted: #3a2e14;
+  --color-danger: #f07066;
+  --color-danger-muted: #3a1816;
+  --color-info: #5ba8e0;
+  --color-info-muted: #153048;
+  --color-ring: #56b87a;
+  --color-overlay: rgb(4 12 8 / 0.72);
+
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.25), 0 8px 24px rgb(0 0 0 / 0.3);
+  --shadow-elevated: 0 2px 4px rgb(0 0 0 / 0.3), 0 16px 40px rgb(0 0 0 / 0.4);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-height: 3.75rem;
+  }
+}
